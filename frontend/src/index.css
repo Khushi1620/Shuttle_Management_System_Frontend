@@ -1,0 +1,18 @@
+* {
+  
+  box-sizing: border-box;
+  
+}
+
+html, body {
+  min-width: 350px;
+  overflow-x: auto; 
+}
+.hide-scrollbar {
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+
+.hide-scrollbar::-webkit-scrollbar {
+  display: none;
+}
